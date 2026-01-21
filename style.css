@@ -1,0 +1,98 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.button_name {
+    border-radius: 6px;
+    padding: 4px;
+    margin: 10px 0 0 10px;
+}
+
+.button_name:hover {
+    background-color: gainsboro;
+}
+
+.nav_name {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.nav_name:hover {
+    color: blueviolet;
+}
+
+.nav_task {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav_task:hover {
+    color: blueviolet;
+}
+
+nav {
+    border-bottom: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome_title {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    padding-left: 10px;
+}
+
+/*
+translate: Significa "mover" ou "trasladar". X: Significa que o movimento é apenas na horizontal (esquerda/direita). -50%: Significa "mova 50% da minha própria largura para a esquerda (negativo)".
+*/
+
+.title_main {                       
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.style_2025 {
+    border-bottom: 1px solid #ECECEC;
+}
+
+.link {
+    text-decoration: none;
+    color: #006BE6;
+}
+
+.footer_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.div_projects {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.github {
+    padding: 5px;
+}
+
+.instagram {
+    padding: 5px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleTask.css">
+</head>
+<body>
+    
+    <header>
+
+        <nav> 
+        
+            <a class="nav_name" href="http://localhost:5500/index.html">Página Inicial</a>
+
+            <a class="nav_task" href="pageTask.html">Página de tarefas</a>
+
+        </nav>
+
+    </header>
+
+    <body>
+
+        <div class="container_task">
+
+            <h1>Lista de tarefas</h1>
+
+            <p>Adicione aqui as suas tarefas!</p>
+
+            <input id="inputTarefa" class="input_task" placeholder="Digite a sua tarefa..." type="text">
+
+            <button onclick="mudarNome()" class="add_task">Adiconar tarefa</button>
+
+            <p id="mensagem"></p>
+
+            <ul id="listaTarefas">
+                
+            </ul>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</body>
+</html>
