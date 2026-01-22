@@ -71,10 +71,13 @@ translate: Significa "mover" ou "trasladar". X: Significa que o movimento é ape
     color: #006BE6;
 }
 
-.footer_list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+footer > a {
+    text-decoration: none;
+}
+
+.img_footer {
+    width: 32px;
+    height: 32px;
 }
 
 footer {
@@ -87,12 +90,4 @@ footer {
 .div_projects {
     margin-left: 2rem;
     margin-right: 2rem;
-}
-
-.github {
-    padding: 5px;
-}
-
-.instagram {
-    padding: 5px;
 }
